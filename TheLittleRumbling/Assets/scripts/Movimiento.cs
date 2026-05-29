@@ -49,7 +49,7 @@ public class Movimiento : MonoBehaviour
         }
 
         // SALTO Y DOBLE SALTO
-        if (Input.GetKeyDown(KeyCode.Space) && jumpsLeft > 0)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)  && jumpsLeft > 0)
         {
             rb.linearVelocity = new Vector2(
                 rb.linearVelocity.x,
@@ -70,8 +70,7 @@ public class Movimiento : MonoBehaviour
         }
 
         // ATAQUE
-        if (Input.GetKeyDown(KeyCode.J))
-        {
+        if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.E)) {  
             animator.SetTrigger("Attack");
         }
 
