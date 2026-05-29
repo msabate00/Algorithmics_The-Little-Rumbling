@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: c5baed9135a29c2458fa512ab6a825c3
+guid: a873f78826bfffd4a967c9a0e1cb9ac0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8961969406314552355
-    second: herochar_jump_down_anim_strip_3_0
-  - first:
-      213: -5279389819937096996
-    second: herochar_jump_down_anim_strip_3_1
-  - first:
-      213: 1674600674433128033
-    second: herochar_jump_down_anim_strip_3_2
+      213: 6989642852348889387
+    second: images-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: herochar_jump_down_anim_strip_3_0
+      name: images-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 14
-        height: 16
+        x: 57
+        y: 10
+        width: 111
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32c1c4741bf4f5c70800000000000000
-      internalID: 8961969406314552355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: herochar_jump_down_anim_strip_3_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 0
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdaf5df1ee6dbb6b0800000000000000
-      internalID: -5279389819937096996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: herochar_jump_down_anim_strip_3_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1665734e0706d3710800000000000000
-      internalID: 1674600674433128033
+      spriteID: b298a193423300160800000000000000
+      internalID: 6989642852348889387
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      herochar_jump_down_anim_strip_3_0: 8961969406314552355
-      herochar_jump_down_anim_strip_3_1: -5279389819937096996
-      herochar_jump_down_anim_strip_3_2: 1674600674433128033
+      images-removebg-preview_0: 6989642852348889387
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
