@@ -39,3 +39,25 @@ public class EnemigoDispara : MonoBehaviour
         }
     }
 }
+
+public class EnemigoDisparo : MonoBehaviour
+{
+    [Header("Referencias")]
+    public GameObject proyectilPrefab; 
+    public Transform puntoDisparo;     
+    public float velocidadBala = 10f;
+
+    
+    public void DispararProyectil()
+    {
+        
+        GameObject bala = Instantiate(proyectilPrefab, puntoDisparo.position, puntoDisparo.rotation);
+
+        
+        Rigidbody rb = bala.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.linearVelocity = puntoDisparo.forward * velocidadBala;
+        }
+    }
+}

@@ -23,6 +23,8 @@ public class EnemySimplePatrolChase : MonoBehaviour
     private int patrolIndex;
     private bool isChasing;
     private bool isDead;
+    private Vector3 EnemyPos;
+    private Vector3 PlayerPos;
 
     private void Awake()
     {
@@ -93,13 +95,19 @@ public class EnemySimplePatrolChase : MonoBehaviour
     {
         if (player == null)
             return;
+        if (Vector3.Distance(EnemyPos, PlayerPos) > 3f)
+        {
 
-        transform.position = Vector2.MoveTowards(
+            transform.position = Vector2.MoveTowards(
             transform.position,
             player.position,
             chaseSpeed * Time.deltaTime);
 
-        FaceTarget(player.position);
+            FaceTarget(player.position);
+
+        }
+            
+        
     }
 
     private void FaceTarget(Vector3 targetPosition)
