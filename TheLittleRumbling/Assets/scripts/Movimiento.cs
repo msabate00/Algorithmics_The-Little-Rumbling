@@ -49,7 +49,7 @@ public class Movimiento : MonoBehaviour
         }
 
         // SALTO Y DOBLE SALTO
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)  && jumpsLeft > 0)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))  && jumpsLeft > 0)
         {
             rb.linearVelocity = new Vector2(
                 rb.linearVelocity.x,
